@@ -1,0 +1,15 @@
+function [] = animaeixo(C,Einit,Efin)
+%Anima de um eixo para o outro em um cenário C
+
+L=logm(Efin.mth);
+N = 10;
+T0 = Einit.mth;
+
+for i = 1: N
+T = real(expm((i-1)*L/(N-1)));
+Efin.mth = T0*T;
+C.desenha();
+drawnow;
+end
+
+end
