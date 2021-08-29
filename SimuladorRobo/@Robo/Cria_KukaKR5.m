@@ -46,7 +46,7 @@ ilinks = InfoLinks(alfa,d,a,theta,desl,R,h,CorLinks,CorEixos,rho,tipo,limites_q,
 
 
 %Configurações do efetuador
-efetuador = Efetuador(eye(4),0,0,[0 0 0],0.05,0.1,[0.2 0.2 0.2]);
+efetuador = Efetuador(eye(4),0,0,[0 0 0],0.005,0.2,[0.2 0.2 0.2]);
 
 %Transformação base
 Tbase=eye(4);

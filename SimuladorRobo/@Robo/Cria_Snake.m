@@ -46,7 +46,7 @@ ilinks = InfoLinks(alfa,d,a,theta,desl,R,h,CorLinks,CorEixos,rho,tipo,limites_q,
 
 
 %Configurações do efetuador
-efetuador = Efetuador(Robo.rot('x',-pi/2),0.05,0.01,[1 1 1],0.02,0.05,[0.4 0.8 0.4]); %;
+efetuador = Efetuador(Robo.rot('x',-pi/2),0.05,0.01,[1 1 1],0.01,0.2,[0.4 0.8 0.4]); %;
 
 %Transformação base
 Tbase=Robo.rot('x',pi/2);

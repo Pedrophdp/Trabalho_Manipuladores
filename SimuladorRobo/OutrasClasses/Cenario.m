@@ -23,7 +23,7 @@ classdef Cenario<handle
      
        function obj = Cenario(lst_obj_desenhaveis_in)
            %Construtor da classe cenário
-           obj.limites_desenho =[-1 1 -1 1 -1 1];
+           obj.limites_desenho =[-2 2 -2 2 -2 2];
            obj.handle_desenho=[];
            obj.lst_obj_desenhaveis={};
            obj.lst_obj_fisicos={};

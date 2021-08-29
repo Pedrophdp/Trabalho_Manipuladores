@@ -2,7 +2,7 @@ function f = criacurva(varargin)
 
 if nargin==0
     hold on
-    axis([-0.3 0.3 -0.3 0.3]);
+    axis([-1 1 -1 1]);
     grid on;
     terminou=0;
     i=1;
@@ -13,7 +13,7 @@ if nargin==0
         
         terminou = (but~=1);
         i=i+1;
-        axis([-0.3 0.3 -0.3 0.3]);
+        axis([-1 1 -1 1]);
     end
     hold off;
 else
@@ -36,6 +36,6 @@ hold on;
 plot(PD(1,:),PD(2,:),'ro');
 hold off;
 grid on;
-axis([-0.3 0.3 -0.3 0.3]);
+axis([-1 1 -1 1]);
 
 end
